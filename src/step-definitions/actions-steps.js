@@ -5,10 +5,16 @@ Given('A {string} page', (pageName) => {
   return pages(pageName).open();
 });
 
-When('I input with {string} and {string}', (username, password) => pages('login').login(username, password));
-
-When('I clear username and password', () => {
-  pages('login').clearInput('all');
+When('I login with {string} and {string}', (username, password) => {
+  return pages('login').login(username, password);
 });
 
-When('I click the "Login" button', () => pages('login').submitBtn.click());
+When(/^I clear "(username|password)"(?: and "(password|username)")?$/, async (field1, field2) => {
+  const loginPage = pages('login');
+  const fields = [field1, field2].filter(Boolean);
+  await loginPage.clearInput(...fields);
+});
+
+When('I click the "Login" button', () => {
+  return pages('login').submitBtn.click();
+});

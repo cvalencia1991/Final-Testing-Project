@@ -6,3 +6,8 @@ Then('should see the error message {string}', async (errorMessage) => {
   const regexErrorMessage = new RegExp(errorMessage, 'i');
   await expect(errorEl).toHaveText(regexErrorMessage);
 });
+
+Then('I should see {string} on the header of dashboard page', async (title) => {
+  const titleHeader = await pages('dashboard').header.title;
+  await expect(titleHeader).toHaveText(title);
+});
