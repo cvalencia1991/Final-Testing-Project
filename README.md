@@ -31,11 +31,14 @@
 
     the metodology of criteria the work are in the next image bellow:
 
-    <img src="./assets/criteria.png" alt="logo" width="140"  height="auto" />
-
+<p align="center">
+ <img src="./assets/criteria.png" alt="logo"   sytle ="display:flex justify-content:center" height="auto" />
+</p>
     and this is the project of the implementation:
-
-    <img src="./assets/requirements.png" alt="logo" width="140"  height="auto" />
+    
+<p align="center">
+ <img src="./assets/requirements.png" alt="logo"  height="auto" />
+</p>
 
 ## 🛠 Built With <a name="built-with"></a>
 
