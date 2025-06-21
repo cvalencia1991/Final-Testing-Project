@@ -10,20 +10,19 @@
 
 # 📗 Table of Contents
 
-    - [📖 About the Project](#about-project)
-    - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-    - [💻 Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Run tests](#run-tests)
-    - [👥 Authors](#authors)
-    - [🔭 Future Features](#future-features)
-    - [🤝 Contributing](#contributing)
-    - [🙏 Acknowledgements](#acknowledgements)
-    - [📝 License](#license)
+   - [📖 About the Project](#about-project)
+   - [🛠 Built With](#built-with)
+   - [Tech Stack](#tech-stack)
+   - [Key Features](#key-features)
+   - [💻 Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Setup](#setup)
+   - [Install](#install)
+   - [Run tests](#run-tests)
+   - [👥 Authors](#authors)
+   - [🤝 Contributing](#contributing)
+   - [🙏 Acknowledgements](#acknowledgements)
+   - [📝 License](#license)
 
 # 📖 Testing Final Project <a name="about-project"></a>
 
@@ -69,35 +68,37 @@
 
    In order to run this project you need:
 
-    ```sh
+   ```sh
     node version latest
-    ```
+   ```
 ### Setup
 
 Clone this repository to your desired folder:
 
-```sh
-cd my-folder
-git clone git@github.com:myaccount/my-project.git
-```
+
+   ```sh
+     cd my-folder
+     git clone git@github.com:cvalencia1991/Final-Testing-Project.git
+   ```
 
 ### Install
 
    Install this project with:
 
-    ```sh
-    cd my-project
-    npm install
-    ```
+   
+   ```sh
+     cd my-folder
+     npm install
+   ```
 
 ### Run tests
 
    To run tests, run the following command:
 
-    ```sh
+   ```sh
     npm test
-    npm eslint
-    ```
+    npm lint
+   ```
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -113,7 +114,7 @@ git clone git@github.com:myaccount/my-project.git
 
    Contributions, issues, and feature requests are welcome!
 
-   Feel free to check the [issues page](../../issues/).
+   Feel free to check the [issues page](https://github.com/cvalencia1991/Final-Testing-Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
