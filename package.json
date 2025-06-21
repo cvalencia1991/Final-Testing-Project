@@ -20,12 +20,12 @@
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.31.0",
-    "geckodriver": "^5.0.0",
     "globals": "^16.2.0",
-    "wdio-chromedriver-service": "^8.1.1",
-    "wdio-geckodriver-service": "^5.0.2"
+    "wdio-chromedriver-service": "^8.1.1"
   },
   "dependencies": {
-    "@wdio/junit-reporter": "^9.15.0"
+    "@wdio/junit-reporter": "^9.15.0",
+    "geckodriver": "^3.2.0",
+    "wdio-geckodriver-service": "^1.1.0"
   }
 }
