@@ -54,7 +54,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-   - **Implement Behavioral testing using [cucumbre](https://cucumber.io/)**
+   - **Implement Behavioral testing using [cucumber](https://cucumber.io/)**
    - **Adding testing implementing**
    - **Implement TAF(Layers in Test Automation Frameworks) architecture**
 
@@ -68,16 +68,14 @@
 
    In order to run this project you need:
 
-   ```sh
-    node version latest
-   ```
+   - node version latest
+   - text Editor
 ### Setup
 
 Clone this repository to your desired folder:
 
 
    ```sh
-     cd my-folder
      git clone git@github.com:cvalencia1991/Final-Testing-Project.git
    ```
 
@@ -85,9 +83,9 @@ Clone this repository to your desired folder:
 
    Install this project with:
 
-   
+
    ```sh
-     cd my-folder
+     cd Final-Testing-Project
      npm install
    ```
 
@@ -120,7 +118,7 @@ Clone this repository to your desired folder:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-   I would like to thank to Epam Campus to bring me the oportunity to learn this topic of automated testing using javascript
+   I would like to thank to EPAM Campus to bring me the opportunity to learn this topic of automated testing using JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
