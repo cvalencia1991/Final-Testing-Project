@@ -2,10 +2,10 @@ import BasePage from './base.page';
 
 export default class LoginPage extends BasePage {
   constructor() {
-    super('https://www.saucedemo.com/');
+    super('/');
   }
 
-  get iputUserName() {
+  get inputUserName() {
     return $('#user-name');
   }
 
@@ -21,25 +21,22 @@ export default class LoginPage extends BasePage {
     return $('.error-message-container');
   }
 
-  login(username, inputPassword) {
-    this.iputUserName.setValue(username);
-    this.inputPassword.setValue(inputPassword);
+  async login(username, inputPassword) {
+    await this.inputUserName.setValue(username);
+    await this.inputPassword.setValue(inputPassword);
   }
 
-  clearInput(name) {
-    switch (name) {
-      case 'username':
-        this.iputUserName.clearValue();
-        break;
-      case 'password':
-        this.inputPassword.clearValue();
-        break;
-      case 'all':
-        this.iputUserName.clearValue();
-        this.inputPassword.clearValue();
-        break;
-      default:
-        throw new Error('wrong input name element');
+  async clearInput(...fields) {
+    if (fields.includes('username')) {
+      await this.inputUserName.click();
+      await browser.keys(['Control', 'a']);
+      await browser.keys('Backspace');
+    }
+
+    if (fields.includes('password')) {
+      await this.inputPassword.click();
+      await browser.keys(['Control', 'a']);
+      await browser.keys('Backspace');
     }
   }
 }
