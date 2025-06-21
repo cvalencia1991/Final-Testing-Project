@@ -54,7 +54,7 @@
     - **Adding testing implementing**
     - **Implement TAF(Layers in Test Automation Frameworks) architecture**
 
-    <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -90,14 +90,10 @@
 
     To run tests, run the following command:
 
-    <!--
-    Example command:
-
     ```sh
     npm test
     npm eslint
     ```
-    --->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -107,23 +103,23 @@
     - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
     - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-    <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🤝 Contributing <a name="contributing"></a>
 
     Contributions, issues, and feature requests are welcome!
 
     Feel free to check the [issues page](../../issues/).
 
-    <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
     I would like to thank to Epam Campus to bring me the oportunity to learn this topic of automated testing using javascript
 
-    <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
     This project is [MIT](./LICENSE) licensed.
 
-    <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
