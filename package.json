@@ -24,5 +24,8 @@
     "globals": "^16.2.0",
     "wdio-chromedriver-service": "^8.1.1",
     "wdio-geckodriver-service": "^5.0.2"
+  },
+  "dependencies": {
+    "@wdio/junit-reporter": "^9.15.0"
   }
 }
