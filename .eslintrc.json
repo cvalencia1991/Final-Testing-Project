@@ -9,10 +9,30 @@
     "sourceType": "module"
   },
   "rules": {
+    "arrow-body-style": "off",
     "class-methods-use-this": "off",
     "arrow-parens": "off",
     "prefer-arrow-callback": "off",
     "func-names": "off",
     "object-curly-newline": "off"
-  }
+  },
+  "globals": {
+    "browser": "readonly",
+    "$": "readonly",
+    "expect": "readonly"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.feature.js", 
+        "**/step-definitions/**/*.js"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": ["error", { 
+          "devDependencies": true 
+        }
+        ]
+      }
+    }
+  ]
 }
